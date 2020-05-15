@@ -1,0 +1,840 @@
+2019-09-19 09:54:45.770  INFO 14712 --- [restartedMain] com.hqu.community.CommunityApplication   : Starting CommunityApplication on DESKTOP-EA4RFF9 with PID 14712 (D:\workspace\community\target\classes started by ZieWong in D:\workspace\community)
+2019-09-19 09:54:45.770 DEBUG 14712 --- [restartedMain] com.hqu.community.CommunityApplication   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-09-19 09:54:45.770  INFO 14712 --- [restartedMain] com.hqu.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2019-09-19 09:54:45.864  INFO 14712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-19 09:54:45.864  INFO 14712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-19 09:54:46.973  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-19 09:54:46.973  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-19 09:54:47.020  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2019-09-19 09:54:47.036  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-19 09:54:47.036  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-19 09:54:47.051  INFO 14712 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hqu.community.dao.elasticsearch.DiscussPostRepository.
+2019-09-19 09:54:47.051  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-09-19 09:54:47.395  INFO 14712 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$2cb36a80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-19 09:54:47.457  INFO 14712 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$590158fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-19 09:54:47.895  INFO 14712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-19 09:54:47.926  INFO 14712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-19 09:54:47.926  INFO 14712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-19 09:54:48.020  INFO 14712 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2019-09-19 09:54:48.020  INFO 14712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2156 ms
+2019-09-19 09:54:49.379  INFO 14712 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-09-19 09:54:49.379  INFO 14712 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-09-19 09:54:49.379  INFO 14712 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-09-19 09:54:49.379  INFO 14712 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-09-19 09:54:49.379  INFO 14712 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-09-19 09:54:49.379  INFO 14712 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-09-19 09:54:50.378  INFO 14712 --- [restartedMain] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 127.0.0.1:9300
+2019-09-19 09:54:51.972  INFO 14712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-19 09:54:51.987 ERROR 14712 --- [restartedMain] .d.e.r.s.AbstractElasticsearchRepository : failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{D1-NDuGwQr6G_65QLx60PQ}{127.0.0.1}{127.0.0.1:9300}]
+2019-09-19 09:54:52.347  INFO 14712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-19 09:54:52.441  INFO 14712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-19 09:54:53.034  INFO 14712 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a1404e4d-c0af-4ed3-8f3e-16e211c07d3a
+
+2019-09-19 09:54:53.081  INFO 14712 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/resources/**'], []
+2019-09-19 09:54:53.112  INFO 14712 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6708f6d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@132dc8ec, org.springframework.security.web.header.HeaderWriterFilter@45bda1b2, org.springframework.security.web.authentication.logout.LogoutFilter@431f9145, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dacb3c3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d2a3d5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6aaef22a, org.springframework.security.web.session.SessionManagementFilter@1caeee9d, org.springframework.security.web.access.ExceptionTranslationFilter@574cee18, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a8e0f28]
+2019-09-19 09:54:53.222  INFO 14712 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-09-19 09:54:53.253  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.1
+2019-09-19 09:54:53.253  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : fa14705e51bd2ce5
+2019-09-19 09:54:53.378  INFO 14712 --- [restartedMain] org.apache.kafka.clients.Metadata        : Cluster ID: -qf4DFeBS1Cs99N3COEgBA
+2019-09-19 09:54:53.393  INFO 14712 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-09-19 09:54:53.409  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.1
+2019-09-19 09:54:53.409  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : fa14705e51bd2ce5
+2019-09-19 09:54:53.409  INFO 14712 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2019-09-19 09:54:53.409  INFO 14712 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-09-19 09:54:53.425  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.1
+2019-09-19 09:54:53.425  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : fa14705e51bd2ce5
+2019-09-19 09:54:53.425  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : Cluster ID: -qf4DFeBS1Cs99N3COEgBA
+2019-09-19 09:54:53.425  INFO 14712 --- [restartedMain] org.apache.kafka.clients.Metadata        : Cluster ID: -qf4DFeBS1Cs99N3COEgBA
+2019-09-19 09:54:53.425  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=test-consumer-group] Discovered group coordinator 192.168.17.1:9092 (id: 2147483647 rack: null)
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=test-consumer-group] Revoking previously assigned partitions []
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions revoked: []
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=test-consumer-group] (Re-)joining group
+2019-09-19 09:54:53.440  INFO 14712 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-09-19 09:54:53.440  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.1
+2019-09-19 09:54:53.440  INFO 14712 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : fa14705e51bd2ce5
+2019-09-19 09:54:53.440  INFO 14712 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : Cluster ID: -qf4DFeBS1Cs99N3COEgBA
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=test-consumer-group] Discovered group coordinator 192.168.17.1:9092 (id: 2147483647 rack: null)
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-4, groupId=test-consumer-group] Revoking previously assigned partitions []
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions revoked: []
+2019-09-19 09:54:53.440  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=test-consumer-group] (Re-)joining group
+2019-09-19 09:54:53.472  INFO 14712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2019-09-19 09:54:53.472  INFO 14712 --- [restartedMain] com.hqu.community.CommunityApplication   : Started CommunityApplication in 8.264 seconds (JVM running for 9.285)
+2019-09-19 09:54:53.565  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=test-consumer-group] Successfully joined group with generation 1
+2019-09-19 09:54:53.565  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=test-consumer-group] Successfully joined group with generation 1
+2019-09-19 09:54:53.565  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=test-consumer-group] Setting newly assigned partitions [publish-0]
+2019-09-19 09:54:53.565  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-4, groupId=test-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+2019-09-19 09:54:53.581  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.consumer.internals.Fetcher       : [Consumer clientId=consumer-4, groupId=test-consumer-group] Resetting offset for partition comment-0 to offset 0.
+2019-09-19 09:54:53.581  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.consumer.internals.Fetcher       : [Consumer clientId=consumer-2, groupId=test-consumer-group] Resetting offset for partition publish-0 to offset 0.
+2019-09-19 09:54:53.581  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.consumer.internals.Fetcher       : [Consumer clientId=consumer-4, groupId=test-consumer-group] Resetting offset for partition like-0 to offset 0.
+2019-09-19 09:54:53.581  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.consumer.internals.Fetcher       : [Consumer clientId=consumer-4, groupId=test-consumer-group] Resetting offset for partition follow-0 to offset 0.
+2019-09-19 09:54:53.596  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions assigned: [publish-0]
+2019-09-19 09:54:53.596  INFO 14712 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions assigned: [comment-0, like-0, follow-0]
+2019-09-19 09:55:18.460  INFO 14712 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-19 09:55:18.460  INFO 14712 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-19 09:55:18.469  INFO 14712 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-19 09:55:18.517  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:18],访问了[com.hqu.community.service.DiscussPostService.findDiscussPostRows].
+2019-09-19 09:55:18.544  INFO 14712 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-19 09:55:18.754  INFO 14712 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-19 09:55:18.761 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2 
+2019-09-19 09:55:18.781 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.c.d.D.selectDiscussPostRows          : ==> Parameters: 
+2019-09-19 09:55:18.825 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2019-09-19 09:55:18.828  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:18],访问了[com.hqu.community.service.DiscussPostService.findDiscussPosts].
+2019-09-19 09:55:18.829 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, id desc limit ?, ? 
+2019-09-19 09:55:18.829 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2019-09-19 09:55:18.836 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.c.d.D.selectDiscussPosts             : <==      Total: 10
+2019-09-19 09:55:18.836  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:18],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 09:55:18.920  INFO 14712 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-09-19 09:55:18.921  INFO 14712 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-09-19 09:55:18.983 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, status, activation_code, header_url, create_time from user where id = ? 
+2019-09-19 09:55:18.983 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : ==> Parameters: 11(Integer)
+2019-09-19 09:55:18.992 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : <==      Total: 1
+2019-09-19 09:55:19.060  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:19],访问了[com.hqu.community.service.LikeService.findEntityLikeCount].
+2019-09-19 09:55:19.066  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:19],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 09:55:19.068 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, status, activation_code, header_url, create_time from user where id = ? 
+2019-09-19 09:55:19.068 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2019-09-19 09:55:19.070 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : <==      Total: 1
+2019-09-19 09:55:19.072  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:19],访问了[com.hqu.community.service.LikeService.findEntityLikeCount].
+2019-09-19 09:55:19.073  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:19],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 09:55:19.075 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, status, activation_code, header_url, create_time from user where id = ? 
+2019-09-19 09:55:19.075 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2019-09-19 09:55:19.076 DEBUG 14712 --- [http-nio-8080-exec-2] c.h.community.dao.UserMapper.selectById  : <==      Total: 1
+2019-09-19 09:55:19.078  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:19],访问了[com.hqu.community.service.LikeService.findEntityLikeCount].
+2019-09-19 09:55:19.079  INFO 14712 --- [http-nio-8080-exec-2] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 09:55:19],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 09:55:19.120 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : 服务器发生异常Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":149,"username":"niuke","password":"ebce124c4ba2de3be92dc9a3bc1ea75b","salt":"90196","email":"nowcoder149@sina.com","type":0,"status":1,"activationCode":"d7a5714a145b4461b5a4199cc5a0014f","headerUrl":"http://localhost:8080/community/user/header/1b7834ef4e474c0aa70d2ccbf0bbcd94.png","createTime":["java.util.Date",1558079291000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 390] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":149,"username":"niuke","password":"ebce124c4ba2de3be92dc9a3bc1ea75b","salt":"90196","email":"nowcoder149@sina.com","type":0,"status":1,"activationCode":"d7a5714a145b4461b5a4199cc5a0014f","headerUrl":"http://localhost:8080/community/user/header/1b7834ef4e474c0aa70d2ccbf0bbcd94.png","createTime":["java.util.Date",1558079291000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 390] (through reference chain: com.hqu.community.entity.User["enabled"])
+2019-09-19 09:55:19.120 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:132)
+2019-09-19 09:55:19.120 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:110)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:334)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.getCache(UserService.java:196)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.findUserById(UserService.java:47)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$FastClassBySpringCGLIB$$3d5719fd.invoke(<generated>)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$EnhancerBySpringCGLIB$$bef7d451.findUserById(<generated>)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.controller.HomeController.getIndexPage(HomeController.java:42)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2019-09-19 09:55:19.121 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : java.lang.reflect.Method.invoke(Method.java:498)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+2019-09-19 09:55:19.122 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+2019-09-19 09:55:19.123 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+2019-09-19 09:55:19.124 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+2019-09-19 09:55:19.125 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+2019-09-19 09:55:19.125 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+2019-09-19 09:55:19.125 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2019-09-19 09:55:19.125 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2019-09-19 09:55:19.125 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2019-09-19 09:55:19.125 ERROR 14712 --- [http-nio-8080-exec-2] c.h.c.controller.advice.ExceptionAdvice  : java.lang.Thread.run(Thread.java:748)
+2019-09-19 09:55:19.125  WARN 14712 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":149,"username":"niuke","password":"ebce124c4ba2de3be92dc9a3bc1ea75b","salt":"90196","email":"nowcoder149@sina.com","type":0,"status":1,"activationCode":"d7a5714a145b4461b5a4199cc5a0014f","headerUrl":"http://localhost:8080/community/user/header/1b7834ef4e474c0aa70d2ccbf0bbcd94.png","createTime":["java.util.Date",1558079291000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 390] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":149,"username":"niuke","password":"ebce124c4ba2de3be92dc9a3bc1ea75b","salt":"90196","email":"nowcoder149@sina.com","type":0,"status":1,"activationCode":"d7a5714a145b4461b5a4199cc5a0014f","headerUrl":"http://localhost:8080/community/user/header/1b7834ef4e474c0aa70d2ccbf0bbcd94.png","createTime":["java.util.Date",1558079291000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 390] (through reference chain: com.hqu.community.entity.User["enabled"])]
+2019-09-19 10:05:19.887  INFO 14712 --- [http-nio-8080-exec-6] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:05:19],访问了[com.hqu.community.service.DiscussPostService.findDiscussPostRows].
+2019-09-19 10:05:19.890 DEBUG 14712 --- [http-nio-8080-exec-6] c.h.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2 
+2019-09-19 10:05:19.890 DEBUG 14712 --- [http-nio-8080-exec-6] c.h.c.d.D.selectDiscussPostRows          : ==> Parameters: 
+2019-09-19 10:05:19.891 DEBUG 14712 --- [http-nio-8080-exec-6] c.h.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2019-09-19 10:05:19.891  INFO 14712 --- [http-nio-8080-exec-6] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:05:19],访问了[com.hqu.community.service.DiscussPostService.findDiscussPosts].
+2019-09-19 10:05:19.892 DEBUG 14712 --- [http-nio-8080-exec-6] c.h.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, id desc limit ?, ? 
+2019-09-19 10:05:19.892 DEBUG 14712 --- [http-nio-8080-exec-6] c.h.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2019-09-19 10:05:19.898 DEBUG 14712 --- [http-nio-8080-exec-6] c.h.c.d.D.selectDiscussPosts             : <==      Total: 10
+2019-09-19 10:05:19.898  INFO 14712 --- [http-nio-8080-exec-6] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:05:19],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : 服务器发生异常Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"])
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:132)
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:110)
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:334)
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60)
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+2019-09-19 10:05:19.900 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.getCache(UserService.java:196)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.findUserById(UserService.java:47)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$FastClassBySpringCGLIB$$3d5719fd.invoke(<generated>)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$EnhancerBySpringCGLIB$$bef7d451.findUserById(<generated>)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.controller.HomeController.getIndexPage(HomeController.java:42)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : java.lang.reflect.Method.invoke(Method.java:498)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+2019-09-19 10:05:19.901 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+2019-09-19 10:05:19.902 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.903 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2019-09-19 10:05:19.904 ERROR 14712 --- [http-nio-8080-exec-6] c.h.c.controller.advice.ExceptionAdvice  : java.lang.Thread.run(Thread.java:748)
+2019-09-19 10:05:19.905  WARN 14712 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"])]
+2019-09-19 10:05:26.430  INFO 14712 --- [http-nio-8080-exec-8] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:05:26],访问了[com.hqu.community.service.DiscussPostService.findDiscussPostRows].
+2019-09-19 10:05:26.431 DEBUG 14712 --- [http-nio-8080-exec-8] c.h.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2 
+2019-09-19 10:05:26.431 DEBUG 14712 --- [http-nio-8080-exec-8] c.h.c.d.D.selectDiscussPostRows          : ==> Parameters: 
+2019-09-19 10:05:26.432 DEBUG 14712 --- [http-nio-8080-exec-8] c.h.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2019-09-19 10:05:26.432  INFO 14712 --- [http-nio-8080-exec-8] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:05:26],访问了[com.hqu.community.service.DiscussPostService.findDiscussPosts].
+2019-09-19 10:05:26.433 DEBUG 14712 --- [http-nio-8080-exec-8] c.h.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, id desc limit ?, ? 
+2019-09-19 10:05:26.433 DEBUG 14712 --- [http-nio-8080-exec-8] c.h.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2019-09-19 10:05:26.436 DEBUG 14712 --- [http-nio-8080-exec-8] c.h.c.d.D.selectDiscussPosts             : <==      Total: 10
+2019-09-19 10:05:26.437  INFO 14712 --- [http-nio-8080-exec-8] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:05:26],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 10:05:26.438 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : 服务器发生异常Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"])
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:132)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:110)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:334)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.getCache(UserService.java:196)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.findUserById(UserService.java:47)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$FastClassBySpringCGLIB$$3d5719fd.invoke(<generated>)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$EnhancerBySpringCGLIB$$bef7d451.findUserById(<generated>)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.controller.HomeController.getIndexPage(HomeController.java:42)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-09-19 10:05:26.439 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : java.lang.reflect.Method.invoke(Method.java:498)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.440 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+2019-09-19 10:05:26.441 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2019-09-19 10:05:26.442 ERROR 14712 --- [http-nio-8080-exec-8] c.h.c.controller.advice.ExceptionAdvice  : java.lang.Thread.run(Thread.java:748)
+2019-09-19 10:05:26.442  WARN 14712 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"])]
+2019-09-19 10:07:29.574  INFO 14712 --- [http-nio-8080-exec-3] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:07:29],访问了[com.hqu.community.service.DiscussPostService.findDiscussPostRows].
+2019-09-19 10:07:29.575 DEBUG 14712 --- [http-nio-8080-exec-3] c.h.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2 
+2019-09-19 10:07:29.575 DEBUG 14712 --- [http-nio-8080-exec-3] c.h.c.d.D.selectDiscussPostRows          : ==> Parameters: 
+2019-09-19 10:07:29.576 DEBUG 14712 --- [http-nio-8080-exec-3] c.h.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2019-09-19 10:07:29.576  INFO 14712 --- [http-nio-8080-exec-3] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:07:29],访问了[com.hqu.community.service.DiscussPostService.findDiscussPosts].
+2019-09-19 10:07:29.576 DEBUG 14712 --- [http-nio-8080-exec-3] c.h.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, id desc limit ?, ? 
+2019-09-19 10:07:29.577 DEBUG 14712 --- [http-nio-8080-exec-3] c.h.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2019-09-19 10:07:29.580 DEBUG 14712 --- [http-nio-8080-exec-3] c.h.c.d.D.selectDiscussPosts             : <==      Total: 10
+2019-09-19 10:07:29.580  INFO 14712 --- [http-nio-8080-exec-3] c.hqu.community.aspect.ServiceLogAspect  : 用户[0:0:0:0:0:0:0:1],在[2019-09-19 10:07:29],访问了[com.hqu.community.service.UserService.findUserById].
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : 服务器发生异常Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"])
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:132)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer.deserialize(GenericJackson2JsonRedisSerializer.java:110)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:334)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.getCache(UserService.java:196)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService.findUserById(UserService.java:47)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$FastClassBySpringCGLIB$$3d5719fd.invoke(<generated>)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 10:07:29.582 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.service.UserService$$EnhancerBySpringCGLIB$$bef7d451.findUserById(<generated>)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : com.hqu.community.controller.HomeController.getIndexPage(HomeController.java:42)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : java.lang.reflect.Method.invoke(Method.java:498)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+2019-09-19 10:07:29.583 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+2019-09-19 10:07:29.584 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2019-09-19 10:07:29.585 ERROR 14712 --- [http-nio-8080-exec-3] c.h.c.controller.advice.ExceptionAdvice  : java.lang.Thread.run(Thread.java:748)
+2019-09-19 10:07:29.585  WARN 14712 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"]); nested exception is com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "enabled" (class com.hqu.community.entity.User), not marked as ignorable (11 known properties: "authorities", "status", "activationCode", "username", "createTime", "type", "id", "email", "headerUrl", "salt", "password"])
+ at [Source: (byte[])"{"@class":"com.hqu.community.entity.User","id":11,"username":"nowcoder11","password":"25ac0a2e8bd0f28928de3c56149283d6","salt":"49f10","email":"nowcoder11@sina.com","type":0,"status":1,"activationCode":null,"headerUrl":"http://images.nowcoder.com/head/11t.png","createTime":["java.util.Date",1555492287000],"enabled":true,"authorities":null,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}"; line: 1, column: 322] (through reference chain: com.hqu.community.entity.User["enabled"])]
